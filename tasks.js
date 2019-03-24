@@ -20,7 +20,7 @@ for (var i = spans.length - 1; i >= 0; i--) {
 }
 
  var changeSrc = function(event) {
-   let filename = event.target.src.replace("https://thomasmorales.github.io/icons/flower1.png", 'flower1');
+   let filename = event.target.src.replace("https://thomasmorales.github.io/icons/flower1.png", "flower1");
   //let fileName= event.target.src.replace("file:///D:/Desktop/pl_projet1_html/icons/flower1.png",'flower1');
     document.getElementById("test").innerHTML = event.target.src;
   if (event.target.src) {
