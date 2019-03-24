@@ -1,0 +1,154 @@
+body{
+  font-family: texte,Arial;
+  margin-left: 250px;
+  background-image: radial-gradient(circle,  #a3c2c2 2%,#b3cccc,#c2d6d6,#d1e0e0, #e0ebeb, #f0f5f5);
+}
+
+div.a{
+  line-height: 25px;
+}
+
+
+h1 {
+    font-family: titre,Arial;
+    color: #3d3d5c;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 15px;
+  }
+
+  h2 {
+      font-family: titre,Arial;
+      color:#3d3d5c;
+      text-align: center;
+      font-size: 30px;
+
+    }
+
+    h3 {
+        font-family: titre2;
+        color:#1f1f2e;
+        font-size: 40px;
+        letter-spacing: 7px;
+
+      }
+
+  #p1{
+    color:#003366;
+  }
+
+#p2{
+  color: #264d73;
+}
+
+#p3{
+  color: #262673;
+
+}
+
+#p4{
+  color:  #006666;
+
+}
+
+#T1{
+  font-family:track;
+  font-size: 30px;
+}
+
+#S1{
+  font-family: skyrim;
+  font-size: 60px;
+}
+#P1{
+  font-family: pong;
+  font-size: 60px;
+}
+
+#sp_int{
+  position: absolute;
+  top: 150px;
+text-align: center;
+}
+
+#sp_dis{
+  position:absolute;
+  top:250px;
+  left: 650px;
+  text-align: center;
+/*  background-image: url(image/list.jpg);*/
+  width: 320px;
+  font-family:"list_sp";
+  font-size: 30px;
+}
+#sp_dis::after{
+  content: "";
+   background: url(image/list.jpg);
+   opacity: 0.5;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   position: absolute;
+   z-index: -1;
+}
+
+
+  ul.navbar {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    width: 150px;
+  }
+
+  ul.navbar li {
+    margin: 5px 0;
+    padding: 5px;
+    border-right: 1px solid #17252a;
+    border-top: 1px solid #17252a;
+    border-left: 10px solid #17252a;
+    border-bottom: 1px solid #17252a;
+    background-image: linear-gradient(90deg,#00001a 1%,#c2d6d6 30%,#d1e0e0, #e0ebeb, #f0f5f5);
+    list-style-type: none;
+    text-align: right;
+
+  }
+
+  ul.navbar a {
+    text-decoration: none
+
+  }
+
+
+@font-face {
+    font-family: "skyrim";
+    src: url("police/SkyrimFont.ttf");
+}
+@font-face {
+  font-family: "titre";
+  src: url("police/varsity_regular.ttf") ;
+}
+
+@font-face {
+  font-family: "texte";
+  src:url("police/Quicksand-Light.otf");
+}
+
+@font-face {
+  font-family: "track";
+  src: url("police/trackmania.ttf");
+}
+@font-face {
+  font-family: "pong";
+  src: url("police/PongFont.otf");
+}
+
+@font-face {
+font-family: "titre2";
+  src: url("police/Retrocycles.otf");
+}
+
+@font-face {
+font-family: "list_sp";
+  src: url("police/HappyDay-Regular.ttf");
+}

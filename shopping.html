@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>cool shop</title>
+  </head>
+  <link rel="stylesheet" href="styles.css">
+  <script src="shopping.js"></script>
+  <body onload="load()">
+    <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tasks.html">tasks</a></li>
+      <li><a href="shopping.html">shopping</a></li>
+      <li><a href="http://www.ismycomputeron.com/">computer checkup</a></li>
+    </ul>
+
+    <h2>what do you want to buy?</h2>
+    <div id="sp_int">
+     <p >
+        <label><input id="important" type="checkbox" name="box"value="important">Is it important?</label>
+        <label><input id="grocery" type="checkbox" name="box"value="grocery">Can we buy it in grocery?</label>
+      </p>
+
+      <input  id="items" type="text" onfocus="this.value=''" value="items">
+
+      <button id="myBtn" onclick="additem()" type="button" name="button" >add</button>
+      </div>
+
+    <div id="sp_dis">
+      <p>My Wonderful Whishlist</p>
+      <ul id="list1"></ul>
+
+    <input  id="remove" type="number" value="0" min="0">
+    <button id="rmv" onclick="removeitem()" type="button" name="button" >remove</button>
+    </div>
+    <p id="test"></p>
+    <p id="test1"></p>
+  </body>
+</html>
