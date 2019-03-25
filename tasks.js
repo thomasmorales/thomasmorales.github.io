@@ -22,8 +22,8 @@ for (var i = spans.length - 1; i >= 0; i--) {
  var changeSrc = function(event) {
    let filename = event.target.src.replace("https://thomasmorales.github.io/icons/flower1.png", "flower1");
   //let fileName= event.target.src.replace("file:///D:/Desktop/pl_projet1_html/icons/flower1.png",'flower1');
-  //  document.getElementById("test").innerHTML = event.target.src;
-  //  document.getElementById("test1").innerHTML = filename;
+    document.getElementById("test").innerHTML = event.target.src;
+   document.getElementById("test1").innerHTML = filename;
   if (event.target.src) {
     if (filename=="flower1"){
       event.target.src = "https://thomasmorales.github.io/icons/flower2.png";
