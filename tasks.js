@@ -26,10 +26,10 @@ for (var i = spans.length - 1; i >= 0; i--) {
     document.getElementById("test1").innerHTML = filename;
   if (event.target.src) {
     if (filename=="flower1"){
-      event.target.src = "icons/flower2.png";
+      event.target.src = "https://thomasmorales.github.io/icons/flower2.png";
     }
     else {
-      event.target.src = "icons/flower1.png";
+      event.target.src = "https://thomasmorales.github.io/icons/flower1.png";
     }
   }
 };
