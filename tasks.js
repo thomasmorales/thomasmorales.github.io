@@ -25,7 +25,7 @@ for (var i = spans.length - 1; i >= 0; i--) {
     document.getElementById("test").innerHTML = event.target.src;
     document.getElementById("test1").innerHTML = filename;
   if (event.target.src) {
-    if (fileName=="flower1"){
+    if (filename=="flower1"){
       event.target.src = "icons/flower2.png";
     }
     else {
